@@ -1,0 +1,39 @@
+# =========================================
+# COMICCRAFT ENVIRONMENT CONFIGURATION
+# =========================================
+
+# Google Gemini
+GEMINI_API_KEY=AQ.Ab8RN6L_V6sOfa_NANVACMW-p0JN3DkqvHabMXsnUexuOaJhtg
+
+# Gemini models
+GEMINI_FLASH_MODEL=gemini-2.5-flash
+GEMINI_PRO_MODEL=gemini-2.5-pro
+
+# =========================================
+# IMAGE GENERATION
+# =========================================
+
+# demo
+# local_diffusers
+IMAGE_PROVIDER=demo
+
+# Hugging Face token
+HF_TOKEN=
+
+# Stable Diffusion model
+IMAGE_MODEL=stable-diffusion-v1-5/stable-diffusion-v1-5
+
+IMAGE_WIDTH=768
+IMAGE_HEIGHT=512
+IMAGE_STEPS=20
+
+# =========================================
+# APPLICATION
+# =========================================
+
+APP_NAME=ComicCraft
+DEBUG=true
+
+# true = no Gemini API required
+# false = use Gemini
+DEMO_MODE=true
